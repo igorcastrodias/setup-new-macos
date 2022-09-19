@@ -12,6 +12,7 @@ brew install --cask microsoft-openjdk
 
 brew install azure-cli
 brew install terraform
+brew install infracost
 
 brew tap azure/functions
 brew install azure-functions-core-tools@4
