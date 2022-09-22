@@ -5,6 +5,8 @@ softwareupdate -l -a
 #Install Command Line Tools in Mac OS X
 xcode-select --install
 
+sudo softwareupdate --install-rosetta
+
 #Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
