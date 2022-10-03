@@ -16,6 +16,9 @@ brew install infracost
 brew install checkov
 brew install terrascan
 
+#Dapr version for Apple Silicon
+arch -arm64 brew install dapr/tap/dapr-cli
+
 brew tap azure/functions
 brew install azure-functions-core-tools@4
 
