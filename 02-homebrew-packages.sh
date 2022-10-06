@@ -16,6 +16,9 @@ brew install infracost
 brew install checkov
 brew install terrascan
 
+#Azure Developer CLI
+curl -fsSL https://aka.ms/install-azd.sh | bash 
+
 #Dapr version for Apple Silicon
 arch -arm64 brew install dapr/tap/dapr-cli
 
