@@ -1,6 +1,8 @@
 brew install jq
 brew install git
 
+git config --global init.defaultBranch main
+
 brew install nvm
 mkdir ~/.nvm
 
