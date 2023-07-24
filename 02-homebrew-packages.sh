@@ -19,7 +19,7 @@ brew install checkov
 brew install terrascan
 
 #Azure Developer CLI
-curl -fsSL https://aka.ms/install-azd.sh | bash 
+brew tap azure/azd && brew install azd
 
 #Dapr version for Apple Silicon
 arch -arm64 brew install dapr/tap/dapr-cli
